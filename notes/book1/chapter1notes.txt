@@ -1,0 +1,9 @@
+"99.99" == 99.99 //left hand is converted to 99.99 (the number) which is in turn true
+
+//comments should explain why not what. also optionally how
+
+//special variables that intended to be kept constant throughout the program are called "constraints" and are typically
+//declared at the top of the top of the program using all caps and underscores ie "TAX_RATE"
+//ES6 allows the to be declaired using "const" instead of "var"
+
+//if a value is "falsy" it is converted to the boolean "false" when coerced
