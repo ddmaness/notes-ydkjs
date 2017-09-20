@@ -104,4 +104,22 @@ variable will not be used again once the block is executed
 
 
 ---describe the concept of closures.
+closure is when a function envelopes and remembers the variables from the scope in which it envelopes
+even after it is called in a situation where it would normally not have access to that scope
 */
+function add(b){
+	function plus(a){
+		console.log(a + b);
+    }
+	return plus;
+}		
+
+plusTwo = add(2);
+
+plusTwo(3)//5
+
+plusTwo(7)// 9
+
+plusNine = add(9);
+
+plusNine(2) //11
