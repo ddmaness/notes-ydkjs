@@ -62,5 +62,41 @@ o.foo(); // 3
 (p.foo = o.foo)(); // 2
 
 /*
+What are the two forms of objects and what is the difference?
+    literal and constructor.  Almost always going to use literal but constructor allows for 
+    more customizability 
+
+Is everything an object in javascript?  Why does this misconception exist?
+    no Objects are one of 6 or 7 types.  However, some confusion occurs because literals of
+    these types share their name with Objects that hold methods that can manipulate these 
+    types.  ('string' vs. 'String' as in 'String.toString(9.5)')
+
+What is Object.assign used for in ES6?
+    to create a "shallow copy" of an object that has the same properties and values;
+
+What three property descriptors are present on all object properties and what do they mean?
+    enumberable (can it be iterated over) configurable (can these descriptors be changed?)
+    and writable(can the value of this property be changed?)
+
+How do you create and object that may not be changed?
+    calling methods of the Object.Prototype such as 'freeze' or 'seal' depending upon the
+    desired result.  the property discriptors can be changed directly as well
+
+What are Getters and Setters?
+    Getters are a way to override the default ways that values are retrieved from object
+    properties.  And setters override default ways of setting defaults for object properties.
+
+What is the difference between 'in' and 'hasOwnProperty'?
+    in will look for property in the prototypes of the object and hasOwnProperty checks to see
+    if the object directly has the property. 
+
+What is the difference between 'for...' and 'for... in...' loops?
+    for is best used for arrays. for in is best used for objects
+
+What is the difference between forEach, 'every', and 'some'
+    every and some have break cases. forEach runs through the entire array.
+
+What is special about a 'for of' loop?
+iterates using either default @@iterator or one defined by you if more control is necessary.
 
 */
