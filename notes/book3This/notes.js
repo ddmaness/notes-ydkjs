@@ -25,8 +25,42 @@ using debugger to determine both
     the binding site for the "this" calls in the function called with "new". {{new binding}}
 
 ---What is the order of presidence for these rules for new binding when more than one would apply?
+new overrules explicit, which overrules implicit, which overules, default.
 
 ---What 4 things happen when a function is called with "new" in front of it?
+1. a new object is created
+2. this object inherits its prototype from its constructor
+3. this is bound to this new object
+4. unless the function returns its own alternate object, the new -invoked function call will automatically
+return the newly constructed object 
 
----
+---What is hard binding?
+prevents a this binding from being lost or overwritten by frameworks
+
+---What questions should you ask yourself (in order) to determine the binding site of this based on their
+    order of precedence?
+1. Is 'this' bound as the result of a 'new' function call?
+2. Is 'this' explicitly bound?
+3. Is 'this' implicitly bound?
+4. this is either undefined or bound to the global object (default) depending upon strict mode settings
+
+
+---What are the exceptions to the rules for binding?
+If null is passed as the explicit binding location for this, the default rule applies.
+If you indirectly reference a function the default rule applies
+example: 
+*/
+function foo() {
+	console.log( this.a );
+}
+
+var a = 2;
+var o = { a: 3, foo: foo };
+var p = { a: 4 };
+
+o.foo(); // 3
+(p.foo = o.foo)(); // 2
+
+/*
+
 */
