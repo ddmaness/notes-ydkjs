@@ -97,6 +97,18 @@ What is the difference between forEach, 'every', and 'some'
     every and some have break cases. forEach runs through the entire array.
 
 What is special about a 'for of' loop?
-iterates using either default @@iterator or one defined by you if more control is necessary.
+    iterates using either default @@iterator or one defined by you if more control is necessary.
 
+Describe the concept of prototypes in JS.
+    links which [[get]] will follow if it does not find a property on an object
+
+Why should references to .constructor be avoided in code?    
+    they may or may not point to the "constructor" of the object
+
+To be safe you should treat the [[prototype]] of an object as a --
+    READ ONLY CHARACTERISTIC
+
+What is the difference between creating an object using Object.create() vs. new?
+    new partially mimics class constructor calls with Object.create() simply creates a prototype
+    link.
 */
