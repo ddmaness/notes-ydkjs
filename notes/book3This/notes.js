@@ -111,4 +111,10 @@ To be safe you should treat the [[prototype]] of an object as a --
 What is the difference between creating an object using Object.create() vs. new?
     new partially mimics class constructor calls with Object.create() simply creates a prototype
     link.
+
+What is OLOO and what are it's advantages?
+    Objects Linked to Other Objects.  Simpler code that is just as powerful that does not depend
+    upon the idea that JS has classes (it doesn't)
+
+Appendix Note: introduction of class keyword only obfuscates problem.
 */
