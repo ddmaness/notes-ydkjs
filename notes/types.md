@@ -37,3 +37,11 @@ var example = "example"
 **Name two array like values and describe how to convert them into true arrays**
 
 **Why does negative zero exist in JS and how is it handled?**
+
+**What new es6 only method catches special equalities like NaN and -0?**
+
+**what operator allows you to create an undefined value where one did not exist?**
+
+**What types are assigned by value and what types are assigned by reference?**
+
+**How an you pass a scalar primitive as a reference?**
