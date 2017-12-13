@@ -15,7 +15,7 @@ var example = "example"
 
 **Which of the 7 types is buggy when combined with the typeof operator and why?**
 
-**What are the two subtypes of objects?
+**What are the two subtypes of objects?**
 
 **What compound conditional check actually allows you to check for typeof null?**
 
@@ -45,3 +45,15 @@ var example = "example"
 **What types are assigned by value and what types are assigned by reference?**
 
 **How an you pass a scalar primitive as a reference?**
+
+
+## Chapter 3: Natives
+
+**What does it mean to be a "native" in JS?**
+
+**What does it mean to be a "primative" in JS?**
+
+**What is a boxing wrapper and why is it useful?**
+ 
+**What are the object wrapper gotchas?**
+
