@@ -57,3 +57,14 @@ var example = "example"
  
 **What are the object wrapper gotchas?**
 
+**what method allows you to retrieve the underlying primative value of an object wrapper?** 
+
+**what is the most reliable way to create an array of empty slots?**
+
+**What two native constructors are actually helpful and which one is moderately helpful, Why for each?**
+
+**What does the Error() constructor return when called?**
+
+**New to es6, what is the Symbol native?**
+
+**What is an actual use case pre es6 for the fact that native constructor prototypes are empty literals of that native Array.prototype is \[\] etc.?**
