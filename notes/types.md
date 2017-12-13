@@ -3,6 +3,9 @@
 1. First ordered list item
 2. Another item
 ⋅⋅* Unordered sub-list. 
+```javascript
+var example = "example"
+```
 
 ## Chapter 1: Types
 
@@ -32,3 +35,5 @@
 * its possible to add string keys to arrays, it's just not a great idea
 
 **Name two array like values and describe how to convert them into true arrays**
+
+**Why does negative zero exist in JS and how is it handled?**
