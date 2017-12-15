@@ -32,7 +32,7 @@ var example = "example"
 
 **What is a common "gotcha" when using delete on arrays?**
 
-* its possible to add string keys to arrays, it's just not a great idea
+- its possible to add string keys to arrays, it's just not a great idea
 
 **Name two array like values and describe how to convert them into true arrays**
 
@@ -68,3 +68,41 @@ var example = "example"
 **New to es6, what is the Symbol native?**
 
 **What is an actual use case pre es6 for the fact that native constructor prototypes are empty literals of that native Array.prototype is \[\] etc.?**
+
+## Chapter 4: Coercion
+
+**define type casting and coersion and the difference between the two phrases in js**
+
+- coersion always results in scalar primatives and never complex values like objects.
+
+**What will each of these return if called with a.toString()?**
+```javascript
+var a = 22;
+var a = {
+  key: "value"
+};
+var a = [a, b, c];
+var a = null;
+var a = false;
+```
+**What does JSON.stringify(..) do and what makes it different than toString()?**
+
+**What does it mean for a value to be "JSON safe"?**
+
+**What values are not "JSON safe"?**
+
+**what does adding to toJSON method to an object do and what is its most common use case?**
+
+**what is the optional second arguement to JSON.stringify() and for what is it used?**
+
+**what is the third optional arguement to JSON.stringify() and for what is it used?**
+
+**what do true false undefined and null become when coerced by ToNumber?**
+
+**Why are 1 and 0 not truely the same as true and false in JS?**
+
+**Name all falsey values in JS**
+
+**What are falsey objects?**
+
+**What is the most well know case of a falsey object?**mn                         
