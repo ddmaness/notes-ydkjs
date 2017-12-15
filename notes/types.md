@@ -105,4 +105,52 @@ var a = false;
 
 **What are falsey objects?**
 
-**What is the most well know case of a falsey object?**mn                         
+**What is the most well know case of a falsey object?**
+
+**What is the purpose of making conversion "explicit?**
+
+**How do you convert a string to a number and vice versa explicity?**
+
+**Why should you not add 'new' in front of the code to convert numbers to strings or vice versa?**
+
+**What is the difference between using String(x) and x.toString() when coercing a value to a string?**
+
+**What does the unary operator '+' do when placed before a string? What about '-'?**
+
+**What is the most common use case for adding the unary operator '+' infront of a Date object?**
+
+++What is the noncoercion (which is prefered) es5 method of getting a timestamp from the date object?**
+
+**Describe the behavior of the ~ unary operator and its most common usage**
+
+**Why is Math.floor(x) preferable to \~\~x when converting numbers to their interger form?**
+
+**What is the difference between using Number(x) and parseInt(x) or parseFloat(x) to convert strings to numbers?**
+
+**When would you use a parse function over Number() coercion?**
+
+- never use parseInt with non string values
+
+**What is the most common method for explicitly converting a value to a boolean?**
+
+**What is the common use case for using !! explicit boolean conversion in the context of JSON.stringify?**
+
+**What is the most common method to implicitly convert a number to a string?**
+
+**What is the most common method to implicitly convert a string to a number? Why does it work?**
+
+**What are the 5 types of expressions that force implicit boolean conversion?**
+
+**What do these return?**
+```javascript
+var a = 42;
+var b = "abc";
+var c = null;
+
+a || b;
+a && b;
+
+c || b;
+c && b;
+```
+**What are two common patterns that utilize the fact that && and || return one of the values, not a boolean?**
