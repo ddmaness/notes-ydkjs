@@ -246,3 +246,28 @@ if (a === true) {
 **What are two heuristics that allow you to avoid almost any problem with == coercion?**
 
 **Why may it be necessary to explicity coerce values before comparing with "<" "<=" ">=" ">"?
+
+# Chapter 5: Grammar
+
+**What is the difference between a statement and an expression?**
+
+**What are declaration statements what are assignment expressions and what are expression statements?**
+
+**What are the values of a and b in this code block and why?  How might I change this outcome?**
+```javascript
+var a = 42;
+var b = a++;
+```
+**What is the statement-series comma operator and how is it used?**
+
+**What are labels in JS and how are they useful to "continue" and "break" statements? - note that this practice is typically
+discouraged**
+
+**is there such a thing as and else if statement in JS?**
+
+**What gets evaluated first && or ||?**
+
+--- Start reading at "Short Circuited" Section
+
+
+
