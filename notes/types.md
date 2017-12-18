@@ -119,7 +119,7 @@ var a = false;
 
 **What is the most common use case for adding the unary operator '+' infront of a Date object?**
 
-++What is the noncoercion (which is prefered) es5 method of getting a timestamp from the date object?**
+**What is the noncoercion (which is prefered) es5 method of getting a timestamp from the date object?**
 
 **Describe the behavior of the ~ unary operator and its most common usage**
 
@@ -154,3 +154,95 @@ c || b;
 c && b;
 ```
 **What are two common patterns that utilize the fact that && and || return one of the values, not a boolean?**
+
+**What is the gotcha when using loose equals "==" to compare a truthy value to a boolean?  Why does this occur?**
+
+**Why should you never ever use "== true" or "== false"
+
+**Evaluate whats right or wrong with each of these conditional checks**
+```javascript
+var a = "42";
+
+
+if (a) {
+	// ..
+}
+
+if (a == true) {
+	// ..
+}
+
+if (Boolean( a )) {
+	// ..
+}
+
+if (!!a) {
+	// ..
+}
+
+if (a === true) {
+	// ..
+}
+```
+
+**Is it safe to compare null and undefined using loose equals? why or why not?**
+
+**Why is it preferable to use loose equals when comparing null to undefined or vice versa?**
+
+**What gets coerced when comparing a number or string to and object using loose equals.  how is it coerced?**
+
+**avoiding using "== true" or "== false" avoids most unexpected conversion corner cases what are the others?**
+
+**what boolean is returned? "0" == null;	**
+
+**what boolean is returned? "0" == undefined;**
+
+**what boolean is returned? "0" == false;**
+
+**what boolean is returned?  "0" == NaN;**
+
+**what boolean is returned? "0" == NaN;**
+
+**what boolean is returned? "0" == ""**
+
+**what boolean is returned? false == null;**
+
+**what boolean is returned? false == undefined;**
+
+**what boolean is returned? false == NaN;	**
+
+**what boolean is returned? false == 0;**
+
+**what boolean is returned? false == "";**
+
+**what boolean is returned? false == [];**
+
+**what boolean is returned? false == {};**
+
+**what boolean is returned? "" == null;**
+
+**what boolean is returned? "" == undefined;**
+
+**what boolean is returned? "" == NaN;**
+
+**what boolean is returned? "" == 0;**
+
+**what boolean is returned? "" == [];**
+
+**what boolean is returned? "" == {};**
+
+**what boolean is returned? 0 == null;**
+
+**what boolean is returned? 0 == undefined;**
+
+**what boolean is returned? 0 == NaN;**
+
+**what boolean is returned? 0 == [];**
+
+**what boolean is returned? 0 == {};**
+
+**what are the 7 gotcha coercions to look out for?**
+
+**What are two heuristics that allow you to avoid almost any problem with == coercion?**
+
+**Why may it be necessary to explicity coerce values before comparing with "<" "<=" ">=" ">"?
