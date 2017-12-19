@@ -267,7 +267,15 @@ discouraged**
 
 **What gets evaluated first && or ||?**
 
---- Start reading at "Short Circuited" Section
+**Describe a common use case for "short-circuiting"  using && and || operators**
+
+**What is the order of precedence for || ?: and &&?**
+
+**What is associativity in reference to ? :, &&, and ||? Which are left associative and which are right associative?**
+
+============ start at "Errors"
+
+
 
 
 
