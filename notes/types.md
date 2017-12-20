@@ -276,6 +276,12 @@ discouraged**
 **What is the difference between compile time and runtime errors as they relate to try...catch statements?**
 
 
+## Appendix A
+
+**What dom elements create global variables in your js?**
+
+**Why should you avoid extending native prototypes with new methods and properties, even if they're useful?**
+
 
 
 
