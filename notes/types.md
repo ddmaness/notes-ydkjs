@@ -273,7 +273,9 @@ discouraged**
 
 **What is associativity in reference to ? :, &&, and ||? Which are left associative and which are right associative?**
 
-============ start at "Errors"
+**What is the difference between compile time and runtime errors as they relate to try...catch statements?**
+
+
 
 
 
