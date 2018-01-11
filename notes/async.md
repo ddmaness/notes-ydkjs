@@ -81,3 +81,31 @@ Describe to basic patterns for dealing with concurrency interaction
 
 Define a "callback"
 
+In what order will the following functions fire?
+``` javascript
+doA( function(){
+	doB();
+
+	doC( function(){
+		doD();
+	} )
+
+	doE();
+} );
+
+doF();
+```
+
+Describe "inversion of controll" why is it a problem?
+
+What does it mean to "not release zalgo"?
+
+What are the two main problems with using callbacks for asynchronous code?
+
+## Chapter 3: Promises
+
+ 
+
+
+
+
