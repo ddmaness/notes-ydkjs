@@ -104,6 +104,8 @@ What are the two main problems with using callbacks for asynchronous code?
 
 ## Chapter 3: Promises
 
+Promises are ______________ and therefore safe to pass around
+
 What is the most reliable way to check if the value returned by a function is a promise?
 
 How do promises correct the "calling too early" trust issuae?
@@ -172,3 +174,22 @@ Describe the Promise.all([..]) pattern.
 Describe the Promise.race([..]) pattern.
 
 remember to always attach a __________________ to every promise.
+
+Describe the major limitations of promises.
+
+
+## Chapter 4 Generators
+
+What problem with async callback code is solved with promises?
+
+What problem with async callback code is solved with generators?
+
+What is the primary way that generators are different from typical functions?
+
+What es6 syntax allows you to pause code?
+
+What is the difference between how values are returned in generators vs how hey are returned in
+normal functions?
+
+Describe "iteration messaging" and how it is used.
+
