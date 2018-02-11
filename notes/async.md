@@ -20,7 +20,7 @@ Why is it called a callback function?
 Why can the setTimeout() function not guarantee that your code will be executed precisely when it says
 it will?
 
-What is the difference between the terms "async" and "parallel"?
+>>>> START FLASHCARDS HERE<<<<  What is the difference between the terms "async" and "parallel"?
 
 What does it mean to state that JS has "run to completion" behavior?
 
