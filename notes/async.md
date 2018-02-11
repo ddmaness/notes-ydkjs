@@ -193,3 +193,17 @@ normal functions?
 
 Describe "iteration messaging" and how it is used.
 
+## Chapter 6 Benchmarking
+
+Why should you consider using a utility like benchmark.js to test program speed instead of rolling your 
+own?
+
+What is "paving the cowpath" and why is it a bad idea?
+
+Only bother with optimazation in a ________________ path.
+
+What are some examples of "Critical Paths" in a program?
+
+When optimizing for performance, what other factor needs to be considered?
+
+What is "Tail Call Optimization"?	
