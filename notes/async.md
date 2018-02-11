@@ -20,7 +20,7 @@ Why is it called a callback function?
 Why can the setTimeout() function not guarantee that your code will be executed precisely when it says
 it will?
 
->>>> START FLASHCARDS HERE<<<<  What is the difference between the terms "async" and "parallel"?
+What is the difference between the terms "async" and "parallel"?
 
 What does it mean to state that JS has "run to completion" behavior?
 
@@ -173,7 +173,8 @@ Describe the Promise.all([..]) pattern.
 
 Describe the Promise.race([..]) pattern.
 
-remember to always attach a __________________ to every promise.
+
+>>>> START FLASHCARDS HERE<<<< remember to always attach a __________________ to every promise.
 
 Describe the major limitations of promises.
 
