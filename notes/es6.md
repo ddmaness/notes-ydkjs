@@ -42,7 +42,7 @@ What of the advantage of declaring the iterator variable of for loops with let i
 Const restricts the ================== not the value itself
 
 What's wrong with this block of code?
-```
+``` javascript
 {
 	const a = [1,2,3];
 	a.push( 4 );
@@ -54,5 +54,54 @@ What's wrong with this block of code?
 Don rely on cont for code behavior, instead think of it as signaling =============
 
 What does TDZ stand for and what idea does it convey?
+
+What is the most typical use cas for using the spread operator (...) in front of arrays?
+
+Pre es6 how could you spread the elements of an array for use as arguments?
+
+In addition to spreading the ... operator can be used to ================.
+
+What will be console.logged in each of these calls and why?
+```
+function foo(x = 11, y = 31) {
+	console.log( x + y );
+}
+
+foo();
+foo( 5, 6 );
+foo( 0, 42 );
+
+foo( 5 );
+foo( 5, undefined );
+foo( 5, null );
+
+foo( undefined, 6 );
+foo( null, 6 );	
+```
+
+Describe es6 destructuring and how it is used.
+
+What will be console.logged here in es6?
+```javascript
+function bar() {
+	return {
+		x: 4,
+		y: 5,
+		z: 6
+	};
+}
+
+var { x: bam, y: baz, z: bap } = bar();
+console.log( bam, baz, bap);
+
+console.log( x, y, z );
+
+var { x = 5, y = 10, z = 15, w = 20 } = bar();
+console.log( x, y, z );
+
+var { x, y, z, w: WW = 20 } = bar();
+console.log( x, y, z, WW );
+```
+
 
 
