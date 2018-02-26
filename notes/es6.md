@@ -29,3 +29,30 @@ if (!Object.is) {
 	};
 }
 ```
+going forward it is likely that browsers will start rolling out support for features continually so what
+two steps should you get in the habit of doing now?
+
+## Chapter 2: Syntax
+
+Always place let declared variables at the =========== of the block in which they are declared because unlike
+var =======================
+
+What of the advantage of declaring the iterator variable of for loops with let instead of var?
+
+Const restricts the ================== not the value itself
+
+What's wrong with this block of code?
+```
+{
+	const a = [1,2,3];
+	a.push( 4 );
+	console.log( a );
+
+	a = 42;
+}
+```
+Don rely on cont for code behavior, instead think of it as signaling =============
+
+What does TDZ stand for and what idea does it convey?
+
+
