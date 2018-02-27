@@ -42,7 +42,7 @@ What of the advantage of declaring the iterator variable of for loops with let i
 Const restricts the ================== not the value itself
 
 What's wrong with this block of code?
-``` javascript
+```javascript
 {
 	const a = [1,2,3];
 	a.push( 4 );
@@ -62,7 +62,7 @@ Pre es6 how could you spread the elements of an array for use as arguments?
 In addition to spreading the ... operator can be used to ================.
 
 What will be console.logged in each of these calls and why?
-```
+```javascript
 function foo(x = 11, y = 31) {
 	console.log( x + y );
 }
@@ -102,6 +102,58 @@ console.log( x, y, z );
 var { x, y, z, w: WW = 20 } = bar();
 console.log( x, y, z, WW );
 ```
+
+How could the following be rewritten using es6 syntax's concise properties?
+```javascript
+var x = 2, y = 3,
+	o = {
+		x: x,
+		y: y
+	};
+```
+
+How could the following be rewritten using es6 syntax's concise methods? What other ability does this open up?
+```javascript
+var o = {
+	x: function(){
+		// ..
+	},
+	y: function(){
+		// ..
+	}
+}
+```
+
+Only use concise methods if you don't need ================== or =====================.
+
+What are es6 computed property names and how do you use them?
+
+What is a super in es6 and how is it used?
+
+Why is inerpoliliterals a better name for es6 template literals?
+
+how do you use template literals in es6? what are they?
+
+What are tagged template literals in es6 and how are they used-
+
+when using tagged template literals how can you access the un-modified string?
+
+How would you express this as an es6 arrow function?
+```javascript
+function foo(x,y) {
+	return x + y;
+}
+```
+
+leaving off the curly braces in an es6 arrow function with one expression means you can omit=============.
+
+curly braces are required in es6 arrow functions if ================.
+
+arrow functions are always Anonymous function ================ never ====================.
+
+Arrow functions are most appropriate for ===================== functions.
+
+
 
 
 
