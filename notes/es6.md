@@ -153,6 +153,42 @@ arrow functions are always Anonymous function ================ never ===========
 
 Arrow functions are most appropriate for ===================== functions.
 
+How is `this` bound differently in arrow functions?
+
+What rules determine if arrow functions are appropriate or not?
+
+What were the reasons arrow functions were created?
+
+What is the difference between the `for in` loop of es6's `for of` loops?
+
+What values in JS are considered to be 'iterable'?
+
+what does the `u` flag in es6 regular expressions do? what gotcha does this avoid?
+
+What does the `y` flag do in es6 regular expressions? what method must it be paired with?
+
+What is the most likely practical scenario for using the `y` flag for es6 regular expressions?
+
+what new es6 property allows you to retrieve the flags appended to a regular expression? what about the regexp
+statement itself?
+
+What is the trick for switching numbers to their binary, octal, or hexadecimal forms or really any
+different base number system?  How about switching them back?
+
+you should probably avoid ```toUpperCase(), toLowerCase(), substring(..), indexOf(..), slice(..)``` when 
+working with strings that contain =========================.
+
+What are es6 symbols and how are they used? What is their point?
+
+what special behaviors do symbols as object properties exhibit?
+
+
+
+
+
+
+
+
 
 
 
