@@ -182,14 +182,22 @@ What are es6 symbols and how are they used? What is their point?
 
 what special behaviors do symbols as object properties exhibit?
 
+## Chapter 3: Oganization
 
+What is the return value of es6 iterators?
 
+What will be returned in each of these .next() calls?
+```javascript
+var arr = [1,2,3];
 
+var it = arr[Symbol.iterator]();
 
+it.next();
+it.next();
+it.next();
 
-
-
-
+it.next();
+```
 
 
 
