@@ -199,5 +199,117 @@ it.next();
 it.next();
 ```
 
+What happens if you call next() on an iterator that's already completed?
+
+What is the difference between calling return() on an iterator vs. next()?
+
+What is the difference between when throw() is called on a generator vs. return() or next()?
+
+By convention an iterator should not produce any more results after being called with =============.
+
+How and why would you make an iterator an iterable?
+
+is is possible to use a generator as a concise method on an object?
+
+How do you execute a generator?  What is different about when you execute a generator vs.
+executing a normal function
+
+Why would you put a generator inside of a loop?
+
+yield statements have the same precence as ==================.
+
+Which of these expressions are valid?
+```javascript
+var a, b;
+
+a = 3;					
+b = 2 + a = 3;			
+b = 2 + (a = 3);		
+
+yield 3;			
+a = 2 + yield 3;		
+a = 2 + (yield 3);		
+```
+
+describe yield delegation and how it is used?
+
+what will be console.logged in this code?
+```javascript
+function *foo() {
+	yield 1;
+	yield 2;
+	yield 3;
+	return 4;
+}
+
+function *bar() {
+	var x = yield *foo();
+	console.log( "x:", x );
+}
+
+for (var v of bar()) {
+	console.log( v );
+}
+```
+
+What values will be returned in this code snippet?
+```javascript
+function *foo(x) {
+	if (x < 3) {
+		x = yield *foo( x + 1 );
+	}
+	return x * 2;
+}
+
+var it = foo( 1 );
+it.next();
+```
+```for of loops``` can be used to consume ==============.
+
+What is returned in each of these ```next()``` calls. Why?
+```javascript
+function *foo() {
+	yield 1;
+	yield 2;
+	yield 3;
+}
+
+var it = foo();
+
+it.next();				
+
+it.return( 42 );	
+
+it.next();	
+```
+
+How do you set the behavior for a generator to be executed if the controlling code is no longer being
+iterated over?
+
+Why should you not put a ```yield``` statement inside of a ```finally``` clause?
+
+Error handling with generators can be expressed with ================= which works in both the inbound
+and outbound directions even though ```yeild *``` delegation.
+
+What are the two major patterns for which generators are useful?
+
+Describe the module pattern prior to es6.
+
+Describe the singleton pattern and give an example.
+
+What are some major differences between es6 modules and the module pattern of the past?
+
+Why can you not put an ```import``` or ```export``` statement inside of a conditional to cut down on file
+size?
+
+what are the two ways to express an ```export```
+
+there is no ================== scope in modules.
+
+How to you export a module with an alias?
+
+
+
+
 
 
