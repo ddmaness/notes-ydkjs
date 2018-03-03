@@ -308,8 +308,36 @@ there is no ================== scope in modules.
 
 How to you export a module with an alias?
 
+When a module is imported it is imported as a pointer meaning that...
 
+What the difference in behavior when importing these two exports? what is the implication?
+```javascript
+function foo(..) {
+	// ..
+}
 
+export default foo;
+```
+And this one:
+```javascript
+function foo(..) {
+	// ..
+}
 
+export { foo as default };
+```
 
+values of exported modules are ======== at the time of export/import.
+
+what is the module specifier in import statements?
+
+When do you need or not need curly braces in your import statement?
+
+Why should you only import the needed modules from an exported api?
+
+How would you import everything from a module into a single namespace?
+
+true or false it is possible to reassign imported bindings?
+
+es6 modules are intended to be (static or dynamic).
 
