@@ -341,3 +341,20 @@ true or false it is possible to reassign imported bindings?
 
 es6 modules are intended to be (static or dynamic).
 
+unlike object methods class methods are ==================.
+
+What is the meaning of enumerablein a JS context?
+
+there are no ======= separating the members in a class body
+
+what are the three main differences between ```class Foo()``` and ```function Foo()```?
+
+what does ```super``` do in the context of JS es6 classes?
+
+extending natives safely can be done for the first time using es6 ================.
+
+What is ```new.target``` used for in es6?
+
+What is the ```static``` keyword used for in es6
+
+
