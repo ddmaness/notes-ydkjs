@@ -357,4 +357,35 @@ What is ```new.target``` used for in es6?
 
 What is the ```static``` keyword used for in es6
 
+## Chapter 5: Collections
+
+What are TypedArrays in es6?
+
+What does "Endianness" refer to in reference to JS arrays?
+
+What is a es6 map and how is it used?
+
+What is the difference between es6 maps and WeakMaps
+
+What is an es6 set?
+
+What is the difference between es6 sets and WeakSets?
+
+## Chapter 6: API Additions
+
+What does es6 Array.of do?
+
+What are two scenarios where es6's Array.of could prove useful?
+
+What is es6 Array.from used for?
+
+why should you never intentionally work with empty slots in arrays?
+
+What are the second and third arguements in Array.from used for?
+
+What does the es6 Array#copyWithin method do and how is it used?
+
+What does the es6 Array#fill method do and how is it used?
+
+What does the es6 Array#find method do and how is it used?
 
