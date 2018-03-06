@@ -389,3 +389,47 @@ What does the es6 Array#fill method do and how is it used?
 
 What does the es6 Array#find method do and how is it used?
 
+How is Array#some used and what is it's drawback?
+
+what is the "matcher" function passed into Array#find used for?
+
+What problem of indexOf() is addressed by es6's findIndex()?
+
+When should you use .some vs .find vs .findIndex on es6 Arrays?
+
+what do the .entries(), .values(), on .keys() methods do when applied to es6 arrays?
+
+What does the es6 static function Object.is() do?
+
+What does the es6 static function Object.getOwnPropertySymbols() do?
+
+What does the es6 static function Object.setPrototypeOf() do?
+
+if using Object.setPrototypeOf() it is best to do it right after ================= to avoid confusion.
+
+What does the es6 static function Object.assign() do?
+
+How is es6's Number.isNaN different from the global function isNaN?
+
+What is the pre es6 and post es6 method for determining if a number is an interger?
+
+what does es6's Number.isSafeInterger() do?
+
+what does es6's String#repeat() do?
+
+What three new functions for string inspection were added to es6?
+
+## Chapter 7 Meta Programming
+
+What is meta-programming and what does it focus on?
+
+What is split delivery and how is it used?
+
+What is Tail Call Optimization(TCO)?
+
+What is trampoline recursion and why is it useful?
+
+
+
+
+
